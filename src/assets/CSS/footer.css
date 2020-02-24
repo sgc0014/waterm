@@ -1,0 +1,14 @@
+footer{
+    background:#3fb980;
+    color: #fff;
+    margin-bottom: 0;
+    height: 9rem;
+    z-index: 1;
+    box-shadow: 1px 3px 20px#203445;
+    text-align: center;
+}
+.designer{
+    float: left;
+    margin-top: 5rem;
+    font-size: 10px;
+}

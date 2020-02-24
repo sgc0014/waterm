@@ -1,0 +1,37 @@
+
+.navbar{
+  background: #fff  !important;
+  font-family: 'AdobeCleanLight';
+  font-weight: 700;
+  box-shadow:  1px 3px 4px #203445
+}
+
+
+.navbar>a{
+    color: #000;
+    font-weight: 700;
+    
+}
+.navbar-nav{
+    position: relative;
+    left: 30%;
+    
+}
+
+ul>li>.nav-link{
+    color: #000;
+    font-weight: 700;
+   
+}
+
+ul>li>.nav-link:hover{
+    background:
+    #0ca85f;
+    color: #fff;
+    border-radius: 16px;
+}
+span>.custom-toggle{ 
+    border-color: lightgreen; 
+    color: black;
+} 
+

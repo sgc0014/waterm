@@ -1,0 +1,34 @@
+.container{
+    background: #fff;
+    z-index: 1;
+    box-shadow: 1px 1px 14px #203445;
+    padding: 25px;
+}
+
+
+ input{
+    border-radius:20px;
+    border: 1px solid green;
+    text-align: center;
+    margin:5px !important;
+
+}
+label{
+    font-weight: 700;
+} 
+
+
+table{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 990px) {
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    form>input{
+        margin-bottom: 8px;
+    }
+    
+}
