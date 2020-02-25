@@ -50,6 +50,9 @@ input{
     border-radius: 20px !important;
     border: 1px solid green !important;
 }
+.payment-part{
+    margin-top:20px;
+}
 .payment{
     background: #e8e8e8;
 }

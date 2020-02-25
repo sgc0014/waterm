@@ -1,0 +1,33 @@
+.col-sm-4>input{
+    width:100%
+}
+.col-sm-4>.disabled{
+    width:100%;
+    background: #dbdbdb;
+}
+
+.registermeterform{
+    text-align: center;
+}
+.label-file-upload{
+    color: #fff;
+    background: #0ca85f;
+    padding:9px;
+    border-radius: 22px;
+}
+.description{
+    width:100%;
+    border-radius: 5px;
+    border:1px solid green;
+    padding: 4px;
+}
+.col-md-12>.back{
+    background: grey !important;
+    margin-left: 3px;
+}
+
+.nav-registermeter{
+    display: flex;
+    justify-content: space-evenly;
+}
+

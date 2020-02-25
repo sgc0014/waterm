@@ -1,0 +1,13 @@
+.custom{
+    background: #0ca85f !important;
+}
+
+.pastentry-nav{
+    position: relative;
+    right: 12%;
+}
+
+.nav-custom>li>.nav-link:hover{
+   color:#fff
+}
+

@@ -20,7 +20,7 @@ export default function Navbar() {
           <FontAwesomeIcon icon={faBars}/>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav home-nav">
             <li class="nav-item ">
             <Link to='/home' class="nav-link" href="#">  <span><FontAwesomeIcon icon={faHome}/></span> Home </Link>
             </li>

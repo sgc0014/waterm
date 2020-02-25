@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Aadvancepayment() {
   return (
-    <div className="container">
+    <div className="container" style={{height:"100vh"}} >
       <h2 className="water-header">Advance Payment Entry</h2>
       <form>
       <div class=" row">

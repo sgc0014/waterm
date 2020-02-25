@@ -24,7 +24,7 @@ ul>li>.nav-link{
    
 }
 
-ul>li>.nav-link:hover{
+.home-nav>li>.nav-link:hover{
     background:
     #0ca85f;
     color: #fff;

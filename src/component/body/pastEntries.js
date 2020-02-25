@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
+import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
 import {Link} from 'react-router-dom'
 import {faHome} from '@fortawesome/free-solid-svg-icons/faHome'
 import {faUsers} from '@fortawesome/free-solid-svg-icons/faUsers'
@@ -14,32 +15,36 @@ import '../../assets/CSS/pastEntries.css'
 export default function Pastentries() {
   return (
     <div className="container">
-        <div class="statement-navbar navbar-expand-lg ">
        
-        <div class="statment-nav" >
-          <ul class="statement-ul">
-            <li class="statement-item ">
-            <Link to='/home' class="nav-link" href="#">  <span><FontAwesomeIcon icon={faHome}/></span> Masik Khapat </Link>
+       <nav class="navbar  navbar-expand-xl custom ">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <FontAwesomeIcon icon={faBars}/>
+        </button>
+        <div class="collapse navbar-collapse pastentry-nav" id="navbarNavDropdown2">
+          <ul class="navbar-nav nav-custom">
+            <li class="nav-item ">
+            <Link to='/home' class="nav-link" href="#"> Masik Khapat  </Link>
             </li>
-            <li class="statement-item">
-             <Link to='/customer' class="nav-link" href="#"><span><FontAwesomeIcon icon={faUsers}/></span> Masik Billing</Link>
+            <li class="nav-item">
+             <Link to='/customers' class="nav-link" href="#">Masik Billing</Link>
             </li>
-            <li class="statement-item">
-           <Link to='/billing' class="nav-link" href="#"> <span><FontAwesomeIcon icon={faReceipt}/></span> Statement</Link>
+            <li class="nav-item">
+           <Link to='/billing' class="nav-link" href="#"> Statement</Link>
             </li>
-            <li class="statement-item">
-         <Link to='/report' class="nav-link" href="#">   <span><FontAwesomeIcon icon={faFileSignature}/></span> Outstanding Report</Link>
+            <li class="nav-item">
+         <Link to='/report' class="nav-link" href="#">Outstanding Report</Link>
             </li>
-            <li class="statement-item">
-           <Link to='/setup' class="nav-link" href="#"> <span><FontAwesomeIcon icon={faCog}/></span> Event Charges</Link>
+            <li class="nav-item">
+           <Link to='/setup' class="nav-link" href="#"> Event Charges</Link>
             </li>
-            <li class="statement-item">
-           <Link class="nav-link" href="#"> <span><FontAwesomeIcon icon={faHandshake}/></span>  Past Entries</Link>
+            <li class="nav-item">
+           <Link class="nav-link" href="#">Past Entries</Link>
             </li>
           </ul>
         </div>
-      </div>
-      <h7>Previous Meter Reading Date of 510319</h7>
+      </nav>
+      <p className="table-header">Previous Meter Reading Date of 510319</p>
       <div className="table-responsive">
          
       <table

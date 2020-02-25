@@ -1,0 +1,12 @@
+.infoCard{
+    margin-bottom: 25px;
+    background: rgb(226, 223, 223);
+}
+
+.card-title{
+    text-align: center;
+    padding: 28px 28px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
